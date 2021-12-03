@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correclty snapshot 1`] = `
+<View
+  testID="signUpForm"
+>
+  <SignUpFormInput
+    errorMessage=" must be at least 3 characters."
+    formValues={
+      Object {
+        "email": "",
+        "name": "",
+        "password": "",
+        "termsCheckbox": false,
+        "updatesCheckbox": false,
+        "validEmail": true,
+        "validName": true,
+        "validPassword": true,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+    handleChange={[Function]}
+    inputName="First Name"
+    isValidated={false}
+    setFormValues={[MockFunction]}
+    validation={true}
+    value=""
+  />
+  <SignUpFormInput
+    errorMessage="invalid Email format"
+    formValues={
+      Object {
+        "email": "",
+        "name": "",
+        "password": "",
+        "termsCheckbox": false,
+        "updatesCheckbox": false,
+        "validEmail": true,
+        "validName": true,
+        "validPassword": true,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+    handleChange={[Function]}
+    inputName="Email *"
+    isValidated={false}
+    setFormValues={[MockFunction]}
+    validation={true}
+    value=""
+  />
+  <SignUpFormInput
+    errorMessage="must be at least 8 characters"
+    formValues={
+      Object {
+        "email": "",
+        "name": "",
+        "password": "",
+        "termsCheckbox": false,
+        "updatesCheckbox": false,
+        "validEmail": true,
+        "validName": true,
+        "validPassword": true,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+    handleChange={[Function]}
+    inputName="Password *"
+    isValidated={false}
+    setFormValues={[MockFunction]}
+    validation={true}
+    value=""
+  />
+  <View
+    style={
+      Object {
+        "marginBottom": 15,
+      }
+    }
+  >
+    <SignUpFormCheckBox
+      checkBoxValue={false}
+      checkboxMessage="I agree to the Terms and Privacy Policy."
+      formValues={
+        Object {
+          "email": "",
+          "name": "",
+          "password": "",
+          "termsCheckbox": false,
+          "updatesCheckbox": false,
+          "validEmail": true,
+          "validName": true,
+          "validPassword": true,
+          "validatedEmail": false,
+          "validatedName": false,
+          "validatedPassword": false,
+        }
+      }
+      handleChange={[Function]}
+      setFormValues={[MockFunction]}
+    />
+    <SignUpFormCheckBox
+      checkBoxValue={false}
+      checkboxMessage="Subscribe for select product updates."
+      formValues={
+        Object {
+          "email": "",
+          "name": "",
+          "password": "",
+          "termsCheckbox": false,
+          "updatesCheckbox": false,
+          "validEmail": true,
+          "validName": true,
+          "validPassword": true,
+          "validatedEmail": false,
+          "validatedName": false,
+          "validatedPassword": false,
+        }
+      }
+      handleChange={[Function]}
+      setFormValues={[MockFunction]}
+    />
+  </View>
+</View>
+`;

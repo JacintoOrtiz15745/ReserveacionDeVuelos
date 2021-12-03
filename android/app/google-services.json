@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "555459120478",
+    "project_id": "reservaciondevuelos-dea87",
+    "storage_bucket": "reservaciondevuelos-dea87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555459120478:android:da98cf13381019319d93cf",
+        "android_client_info": {
+          "package_name": "com.reservaciondevuelos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555459120478-s0us9e2uc5d0ckj3o4gn1ltj1nijeola.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reservaciondevuelos",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "555459120478-5dvb5sj1o0996s86gg8bk69ogm7vdiu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVWno4eW1cplgnQ8AcsUuUaMVUYIBTXpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555459120478-5dvb5sj1o0996s86gg8bk69ogm7vdiu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

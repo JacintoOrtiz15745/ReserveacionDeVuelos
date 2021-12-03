@@ -1,0 +1,1 @@
+This folder will contain font styles and images if needed.

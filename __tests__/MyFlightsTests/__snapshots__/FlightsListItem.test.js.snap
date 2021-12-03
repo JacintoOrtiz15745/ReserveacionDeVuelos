@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render correctly snapshot 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomWidth": 2,
+      "marginBottom": 15,
+    }
+  }
+  testID="view"
+>
+  <GenericListItem
+    ContainerStyle={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    Icon="plane"
+    Subtitle="AMS"
+    SubtitleFont={
+      Object {
+        "fontSize": 30,
+        "fontWeight": "bold",
+      }
+    }
+    Title="BEG"
+    TitleFont={
+      Object {
+        "fontSize": 30,
+        "fontWeight": "bold",
+      }
+    }
+  />
+  <GenericListItem
+    ContainerStyle={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#b6b7ba",
+        "borderBottomWidth": 2,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "marginTop": 5,
+      }
+    }
+    Subtitle="Netherlands"
+    SubtitleFont={
+      Object {
+        "color": undefined,
+      }
+    }
+    Title="Serbia"
+    TitleFont={
+      Object {
+        "color": undefined,
+      }
+    }
+  />
+  <GenericListItem
+    ContainerStyle={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+      }
+    }
+    Subtitle="5 passengers"
+    SubtitleFont={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+    Title="September 3, 2021"
+    TitleFont={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+  />
+</View>
+`;

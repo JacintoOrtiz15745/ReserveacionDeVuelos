@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpTitle component renders as expected renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#6472ee",
+      "fontSize": 20,
+      "fontWeight": "bold",
+      "marginBottom": 10,
+    }
+  }
+  testID="signUpTitle"
+>
+  Sign Up
+</Text>
+`;

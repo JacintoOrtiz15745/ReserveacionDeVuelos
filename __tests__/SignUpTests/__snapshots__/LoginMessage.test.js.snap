@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginTop": 10,
+      "textAlign": "center",
+    }
+  }
+  testID="view"
+>
+  <Text
+    testID="account"
+  >
+    Already have an account?
+  </Text>
+  <ForwardRef>
+    <Text
+      style={
+        Object {
+          "color": "#6472ee",
+        }
+      }
+      testID="logIn"
+    >
+      Log In
+    </Text>
+  </ForwardRef>
+</View>
+`;

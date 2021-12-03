@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders correctly snapshot 1`] = `
+<ForwardRef
+  onPress={[Function]}
+  testID="GoBackBtn"
+>
+  <Icon
+    allowFontScaling={false}
+    color="#6472ee"
+    name="left"
+    size={30}
+    testID="GoBackIcon"
+  />
+</ForwardRef>
+`;

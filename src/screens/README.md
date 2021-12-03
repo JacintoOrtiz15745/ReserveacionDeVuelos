@@ -1,0 +1,1 @@
+This folder will contain screens of project if needed.

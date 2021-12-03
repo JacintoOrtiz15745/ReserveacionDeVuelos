@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render correctly snapshot 1`] = `
+<ForwardRef
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#6472ee",
+      "borderRadius": 30,
+      "flexDirection": "row",
+      "height": 60,
+      "justifyContent": "center",
+      "width": 60,
+    }
+  }
+  testID="view"
+>
+  <Icon
+    allowFontScaling={false}
+    color="#FFF"
+    name="plus"
+    size={50}
+  />
+</ForwardRef>
+`;

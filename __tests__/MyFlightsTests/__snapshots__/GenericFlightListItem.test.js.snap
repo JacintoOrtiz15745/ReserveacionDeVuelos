@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly when there is no icon snapshot 1`] = `
+<View
+  testID="view"
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 30,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    title
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 30,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    subtitle
+  </Text>
+</View>
+`;

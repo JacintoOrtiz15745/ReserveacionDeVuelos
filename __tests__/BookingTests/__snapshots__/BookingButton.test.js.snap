@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Booking Button render correctly snapshot 1`] = `
+<ForwardRef
+  onPress={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#6472ee",
+      "borderRadius": 10,
+      "justifyContent": "center",
+      "padding": 12,
+    }
+  }
+  testID="BookingBtn"
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+    testID="BookingBtnTitle"
+  >
+    Next
+  </Text>
+</ForwardRef>
+`;

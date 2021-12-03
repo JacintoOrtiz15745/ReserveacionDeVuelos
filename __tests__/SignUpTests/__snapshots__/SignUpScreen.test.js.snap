@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly snapshot 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+      "padding": 10,
+    }
+  }
+  testID="SignUpScreen"
+>
+  <SignUpTitle />
+  <SignUpForm
+    formValues={
+      Object {
+        "email": "",
+        "name": "",
+        "password": "",
+        "termsCheckbox": false,
+        "updatesCheckbox": false,
+        "validEmail": true,
+        "validName": true,
+        "validPassword": true,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+    setFormValues={[Function]}
+  />
+  <SignUpButtons
+    formValues={
+      Object {
+        "email": "",
+        "name": "",
+        "password": "",
+        "termsCheckbox": false,
+        "updatesCheckbox": false,
+        "validEmail": true,
+        "validName": true,
+        "validPassword": true,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+    validateInputs={[Function]}
+    validationValues={
+      Object {
+        "terms": false,
+        "updates": false,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+  />
+</View>
+`;

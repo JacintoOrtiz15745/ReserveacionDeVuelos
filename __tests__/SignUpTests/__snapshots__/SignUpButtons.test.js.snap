@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 15,
+    }
+  }
+  testID="view"
+>
+  <Connect(SignUpButton)
+    formValues={
+      Object {
+        "email": "",
+        "name": "",
+        "password": "",
+        "termsCheckbox": false,
+        "updatesCheckbox": false,
+        "validEmail": true,
+        "validName": true,
+        "validPassword": true,
+        "validatedEmail": false,
+        "validatedName": false,
+        "validatedPassword": false,
+      }
+    }
+    isButtonEnabled={false}
+  />
+  <Text
+    style={
+      Object {
+        "color": "#b6b7ba",
+        "marginBottom": 10,
+        "marginTop": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    or
+  </Text>
+  <Connect(GoogleSignUp) />
+  <LoginMessage />
+</View>
+`;
